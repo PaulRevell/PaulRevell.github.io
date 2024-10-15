@@ -1,0 +1,79 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 40px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+.about,
+.projects {
+  margin: 40px 0;
+}
+
+.about h2,
+.projects h2 {
+  font-size: 2rem;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.project-item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+  margin-top: 0;
+}
+
+.project-item a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
