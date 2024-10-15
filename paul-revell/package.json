@@ -1,7 +1,7 @@
 {
   "name": "paul-revell",
   "version": "0.1.0",
-  "homepage": "https://paul-revell.com/",
+  "homepage": "https://PaulRevell.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
