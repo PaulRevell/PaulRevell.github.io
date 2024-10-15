@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PaulRevell.github.io/static/css/main.1240cbe7.css",
-    "main.js": "/PaulRevell.github.io/static/js/main.a09a6c06.js",
-    "static/js/453.cf40a6b4.chunk.js": "/PaulRevell.github.io/static/js/453.cf40a6b4.chunk.js",
-    "index.html": "/PaulRevell.github.io/index.html",
-    "main.1240cbe7.css.map": "/PaulRevell.github.io/static/css/main.1240cbe7.css.map",
-    "main.a09a6c06.js.map": "/PaulRevell.github.io/static/js/main.a09a6c06.js.map",
-    "453.cf40a6b4.chunk.js.map": "/PaulRevell.github.io/static/js/453.cf40a6b4.chunk.js.map"
+    "main.css": "/static/css/main.1240cbe7.css",
+    "main.js": "/static/js/main.8f29541e.js",
+    "static/js/453.cf40a6b4.chunk.js": "/static/js/453.cf40a6b4.chunk.js",
+    "index.html": "/index.html",
+    "main.1240cbe7.css.map": "/static/css/main.1240cbe7.css.map",
+    "main.8f29541e.js.map": "/static/js/main.8f29541e.js.map",
+    "453.cf40a6b4.chunk.js.map": "/static/js/453.cf40a6b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1240cbe7.css",
-    "static/js/main.a09a6c06.js"
+    "static/js/main.8f29541e.js"
   ]
 }
