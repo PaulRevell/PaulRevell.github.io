@@ -1,3 +1,4 @@
+// src/components/Projects.js
 import React, { useState } from 'react';
 
 import { FaGithub, FaCloudDownloadAlt } from 'react-icons/fa';
@@ -30,8 +31,8 @@ const Projects = () => {
           were inferred via their recorded heart rates which provided a comprehensive
           understanding of the impact of the game on the user.`,
       image: "projects/syncpulse.jpg",
-      tag: "Download contains a version that runs without the correct equipent. Source code for certain components is available on request.",
-      download:""
+      tag: "Source code for certain components is available on request.",
+      download:"downloads/Report.pdf"
     },
     {
       title: "PuzzleFlix",
@@ -43,7 +44,7 @@ const Projects = () => {
     },
     {
       title: "Paul-Revell.com",
-      description: "The personal portfolio website. This site was developed utilizing React, HTML, and CSS. The site is hosted via Github pages.",
+      description: "My personal portfolio website. This site was developed utilizing React, HTML, and CSS. The site is hosted via Github pages.",
       image: "projects/paul-revell.jpg",
       tag: "Currently in development",
       link:"https://www.paul-revell.com",
