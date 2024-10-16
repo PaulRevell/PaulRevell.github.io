@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import { FaGithub, FaCloudDownloadAlt } from 'react-icons/fa';
+import { MdOutlineOpenInNew } from "react-icons/md";
+
 const Projects = () => {
   // State to manage read more toggle
   const [isExpanded, setIsExpanded] = useState({});
@@ -27,19 +30,24 @@ const Projects = () => {
           were inferred via their recorded heart rates which provided a comprehensive
           understanding of the impact of the game on the user.`,
       image: "projects/syncpulse.jpg",
-      link: "Source code for certain components is available on request."
+      tag: "Download contains a version that runs without the correct equipent. Source code for certain components is available on request.",
+      download:""
     },
     {
       title: "PuzzleFlix",
       description: "An interactive puzzle-solving platform where you can play sudoku, multiple eights puzzles, and the eight queens puzzle. I also added the abiliy to create and upload your own puzzles. This was a group project at university and I took part in the majority of the site - both front and backend. Developed using SCRUM and agile development techniques.",
       image: "projects/puzzleflix.jpg",
-      link: "You can find the site here: https://puzzleflix.vanaj.io/"
+      tag: "You can find the site here: https://puzzleflix.vanaj.io/",
+      link:"https://puzzleflix.vanaj.io/",
+      github:"https://github.com/vanajmoorthy/PuzzleFlix/tree/main"
     },
     {
       title: "Paul-Revell.com",
       description: "The personal portfolio website. This site was developed utilizing React, HTML, and CSS. The site is hosted via Github pages.",
       image: "projects/paul-revell.jpg",
-      link: "Currently in development"
+      tag: "Currently in development",
+      link:"https://www.paul-revell.com",
+      github:"https://github.com/PaulRevell/PaulRevell.github.io/tree/main/"
     }
   ];
 
@@ -56,12 +64,33 @@ const Projects = () => {
                 {isExpanded[index] ? project.description : `${project.description.slice(0, 100)}...`}
               </p>
               <p>
-                {isExpanded[index] ? project.link : ""}
+                {isExpanded[index] ? project.tag : ""}
               </p>
               {project.description.length > 100 && (
-                <button onClick={() => toggleReadMore(index)}>
-                  {isExpanded[index] ? "Read Less" : "Read More"}
-                </button>
+                <div className="project-links">
+                  <button onClick={() => toggleReadMore(index)}>
+                    {isExpanded[index] ? "Read Less" : "Read More"}
+                  </button>
+                
+                  {project.link ? 
+                  <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
+                    <MdOutlineOpenInNew size={24} />
+                  </a> : ""
+                  }
+                
+                {project.github ? 
+                  <a className="projectLink" href={project.github} target="_blank" rel="noopener noreferrer">
+                    <FaGithub size={24} />
+                  </a> : ""
+                }
+
+                {project.download ?
+                  <a className="projectLink" href={project.download} target="_blank" rel="noopener noreferrer">
+                    <FaCloudDownloadAlt size={24} />
+                  </a> : ""
+                }
+
+              </div>
               )}
 
             </div>
