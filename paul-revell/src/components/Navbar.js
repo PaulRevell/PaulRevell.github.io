@@ -39,7 +39,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="mailto:paul@paul-revell.com" className="email-button">
+            <a href="mailto:contact@paul-revell.com" className="email-button">
               <FaEnvelope size={24} /> {/* Email Icon */}
             </a>
           </li>
