@@ -8,6 +8,8 @@ const Projects = () => {
   // State to manage read more toggle
   const [isExpanded, setIsExpanded] = useState({});
 
+  const fileHost = 'https://pub-43b3bb097b7d4e48adc0f8b8e18f2de3.r2.dev/';
+
   const toggleReadMore = (index) => {
     setIsExpanded(prevState => ({
       ...prevState,
@@ -32,7 +34,7 @@ const Projects = () => {
           understanding of the impact of the game on the user.`,
       image: "projects/syncpulse.jpg",
       tag: "Source code for certain components is available on request.",
-      download:"downloads/Report.pdf"
+      download:`${fileHost}sync-pulse-report.zip`
     },
     {
       title: "PuzzleFlix",

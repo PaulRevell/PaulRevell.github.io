@@ -14,7 +14,8 @@ const Highlights = () => {
       <div className="highlights-gallery">
         {images.map((image, index) => (
           <div className="highlight-item" key={index}>
-            <img src={image} alt={`Highlight ${index + 1}`} />
+            {/* Uses lazy loading for highlight reels */}
+            <img src={image} loading='lazy' alt={`Highlight ${index + 1}`} />
           </div>
         ))}
       </div>

@@ -11,7 +11,7 @@ const About = () => {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-          I was a student enrolled at the University of St Andrews and have graduated as of June 2024. I have 
+          I was a student enrolled at the University of St Andrews studying Computer Science and have graduated as of June 2024. I have 
           a strong interest in different kinds of technologies and developing software. I mostly use Java, 
           Python, C and React in both my own and my university projects and am keen on learning more 
           languages as required. In my free time, I like to develop video games and software ideas that I think 
