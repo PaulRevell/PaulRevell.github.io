@@ -76,19 +76,19 @@ const Projects = () => {
                   </button>
                 
                   {project.link ? 
-                  <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
+                  <a className="project-icon" href={project.link} target="_blank" rel="noopener noreferrer">
                     <MdOutlineOpenInNew size={24} />
                   </a> : ""
                   }
                 
                 {project.github ? 
-                  <a className="projectLink" href={project.github} target="_blank" rel="noopener noreferrer">
+                  <a className="project-icon" href={project.github} target="_blank" rel="noopener noreferrer">
                     <FaGithub size={24} />
                   </a> : ""
                 }
 
                 {project.download ?
-                  <a className="projectLink" href={project.download} target="_blank" rel="noopener noreferrer">
+                  <a className="project-icon" href={project.download} target="_blank" rel="noopener noreferrer">
                     <FaCloudDownloadAlt size={24} />
                   </a> : ""
                 }
