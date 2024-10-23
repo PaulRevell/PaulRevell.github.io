@@ -11,13 +11,12 @@ const About = () => {
         <div className="about-text">
           <h2>About Me</h2>
           <p>
-          I was a student enrolled at the University of St Andrews studying Computer Science and have graduated as of June 2024. I have 
-          a strong interest in different kinds of technologies and developing software. I mostly use Java, 
-          Python, C and React in both my own and my university projects and am keen on learning more 
-          languages as required. In my free time, I like to develop video games and software ideas that I think 
-          of. I am currently working on a few systems and games as side-projects.
-          Skill-set: Full-stack, SCRUM, object-oriented design, algorithm design, data structures, problem 
-          solving and complexity analysis, teamwork.
+            Recent Computer Science graduate from the University of St Andrews (2024) based in London. I have 
+            a strong interest in different kinds of technologies and developing software. I mostly use Java, 
+            Python, C, and React in both my own and my university projects and am keen on learning more 
+            languages as required. In my free time, I like to develop video games and software ideas that I think 
+            of. I am currently working on a few systems and games as side-projects. Skill-set: Full-stack, SCRUM, 
+            object-oriented design, algorithm design, data structures, problem solving and complexity analysis, teamwork.
           </p>
         </div>
       </div>
