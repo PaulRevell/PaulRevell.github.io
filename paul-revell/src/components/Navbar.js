@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
 import { MdDarkMode, MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
+import logo from '../assets/PR.svg'
+
 const Navbar = ({ isLightMode, toggleMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -20,6 +22,7 @@ const Navbar = ({ isLightMode, toggleMode }) => {
   return (
     <nav className="nav-bar">
       <div className="nav-logo">
+        <img src={logo} alt="Logo" className="nav-logo-image" />
         <h1>Paul Revell</h1>
       </div>
 

@@ -48,7 +48,7 @@ const Projects = () => {
       title: "Paul-Revell.com",
       description: "My personal portfolio website. This site was developed utilizing React, HTML, and CSS. The site is hosted via Github pages.",
       image: "projects/paul-revell.jpg",
-      tag: "Currently in development",
+      tag: "Source code available on github",
       link:"https://www.paul-revell.com",
       github:"https://github.com/PaulRevell/PaulRevell.github.io/tree/main/"
     }
