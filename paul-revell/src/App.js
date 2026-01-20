@@ -4,8 +4,10 @@ import './App.css';
 
 // Components
 import Navbar from './components/Navbar';
+import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Highlights from './components/Highlights';
 
@@ -30,8 +32,9 @@ function App() {
   return (
     <div className="App">
       <Navbar isLightMode={isLightMode} toggleMode={toggleMode} />
+      <Header/>
       <About />
-      <Projects />
+      <Portfolio/>
       <Highlights />
       <Contact />
     </div>
