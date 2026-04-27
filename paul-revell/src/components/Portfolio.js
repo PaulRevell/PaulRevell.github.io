@@ -114,6 +114,7 @@ const Portfolio = ({ modalKey }) => {
     <PortfolioGrid
       title="Work Experience"
       items={workExperience}
+      onCardClick={() => {}}
     />
 
     <PortfolioGrid
