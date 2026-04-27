@@ -75,6 +75,10 @@
   padding: 0 1rem;
 }
 
+.tagline {
+  color: var(--bg-secondary-highlight);
+}
+
 .tag {
   background-color: var(--primary-text);
   color: var(--bg-secondary-highlight);

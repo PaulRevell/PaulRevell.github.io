@@ -34,8 +34,9 @@ function App() {
       <Navbar isLightMode={isLightMode} toggleMode={toggleMode} />
       <Header/>
       <About />
+      {/* <Experience/> */}
       <Portfolio/>
-      <Highlights />
+      {/* <Highlights /> */}
       <Contact />
     </div>
   );

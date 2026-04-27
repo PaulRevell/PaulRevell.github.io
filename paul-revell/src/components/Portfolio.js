@@ -11,7 +11,26 @@ import {
 
 const fileHost = 'https://pub-43b3bb097b7d4e48adc0f8b8e18f2de3.r2.dev/';
 
+const workExperience = [
+  {
+    title: "Data Analyst",
+    image: "projects/tda.webp",
+    tagline: 'Tesco (2024 - Present)',
+  },
+  {
+    title: "Software Enginner",
+    image: "projects/paul-revell.webp",
+    tagline: 'Freelance (2020 - Present)',
+  },
+  {
+    title: "BSc Computer Science",
+    image: "projects/standrews.webp",
+    tagline: 'St Andrews Class of 2024'
+  }
+]
+
 const portfolioItems = [
+  
   {
     title: "Heart Beats - Find your musical soulmate",
     description: "Full-stack application recommending music and connecting users based on listening patterns. Implemented Spotify API integration and custom matching algorithms (on-going)",
@@ -92,6 +111,11 @@ const Portfolio = ({ modalKey }) => {
 
   return (
   <>
+    <PortfolioGrid
+      title="Work Experience"
+      items={workExperience}
+    />
+
     <PortfolioGrid
       title="Portfolio"
       items={portfolioItems}

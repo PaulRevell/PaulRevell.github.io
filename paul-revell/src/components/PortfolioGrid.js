@@ -18,8 +18,8 @@ const PortfolioGrid = ({ title, items, onCardClick }) => {
   };
 
   return (
-    <section className="projects" id="projects">
-      <h2 className="projects-header">Projects</h2>
+    <section className={title} id={title}>
+      <h2 className="projects-header">{title}</h2>
       <div className="portfolio-grid">
         {paginatedItems.map((item) => (
           <a
@@ -31,8 +31,8 @@ const PortfolioGrid = ({ title, items, onCardClick }) => {
             <div className={item.imgborder && 'img-div-border'}>
               <img style={item.imgborder && {objectFit: 'contain'}} src={item.image} alt={item.title} />
             </div>
-            <p>{item.title}</p>
-
+            <p className='tagline'>{item.title}</p>
+            {item.tagline && <p className='tagline'>{item.tagline}</p>}
           </a>
         ))}
       </div>
