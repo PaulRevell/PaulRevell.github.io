@@ -11,7 +11,8 @@ const Header = () => {
       <h1>Paul Revell</h1>
       <h2>Software Engineer & Game Developer</h2>
       <div className="profile-pic">
-        <img src="portrait.png" alt="Paul Revell" />
+        <img src="portrait.webp" alt="Paul Revell" />
+        
       </div>
 
     </header>

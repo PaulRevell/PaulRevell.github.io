@@ -133,6 +133,7 @@ const Portfolio = ({ modalKey }) => {
                 src={selectedItem.img ? selectedItem.img :selectedItem.image}
                 alt={selectedItem.title}
                 style={selectedItem.imgborder && {objectFit: 'contain'}}
+                loading="lazy"
               />
 
           <h3>{selectedItem.title}</h3>
