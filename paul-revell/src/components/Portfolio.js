@@ -13,12 +13,17 @@ const fileHost = 'https://pub-43b3bb097b7d4e48adc0f8b8e18f2de3.r2.dev/';
 
 const workExperience = [
   {
-    title: "Data Analyst",
+    title: "Fulfilment Data & Analytics Manager",
     image: "projects/tda.webp",
-    tagline: 'Tesco (2024 - Present)',
+    tagline: 'Tesco (Oct 2026 - Present)',
   },
   {
-    title: "Software Enginner",
+    title: "Data Analyst",
+    image: "projects/tda.webp",
+    tagline: 'Tesco (Feb 2024 - Oct 2026)',
+  },
+  {
+    title: "Software Engineer",
     image: "projects/paul-revell.webp",
     tagline: 'Freelance (2020 - Present)',
   },
